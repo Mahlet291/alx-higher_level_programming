@@ -7,6 +7,6 @@ def max_integer(my_list=[]):
                 new_list = my_list[i + 1]
                 my_list[i] = my_list[i + 1]
                 my_list[i + 1] = new_list
-        return(my_list[x - 1])       
+            return(my_list[x - 1])       
     else:
         return(None)
