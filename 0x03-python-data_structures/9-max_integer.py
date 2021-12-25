@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 def max_integer(my_list=[]):
-    if my_list is not None:
-        x = len(my_list)
+    x = len(my_list)
+    if x > 0:
         for i in range(x - 1):
             if my_list[i] > my_list[i + 1]:
                 new_list = my_list[i]
